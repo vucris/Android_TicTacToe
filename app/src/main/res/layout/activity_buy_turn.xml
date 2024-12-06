@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/backopqw"
+    tools:context=".BuyTurnActivity">
+
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/sett"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/close" />
+    <RelativeLayout
+        android:id="@+id/playerTwoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop ="60dp"
+        android:layout_margin="18dp"
+        android:layout_centerInParent="true"
+
+        android:background="@drawable/round_back_blue_border"
+        android:gravity="center"
+        android:orientation="vertical">
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/sett"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/shops">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="57dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/buy1TurnBtn"
+                android:onClick="onBuyOneTurnClick"
+                android:layout_width="120dp"
+                android:layout_height="55dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/coins50" />
+
+            <ImageView
+                android:id="@+id/buy5TurnBtn"
+                android:onClick="onBuyFiveTurnClick"
+                android:layout_width="120dp"
+                android:layout_height="55dp"
+                android:background="@drawable/coins300" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="123dp">
+            <ImageView
+                android:id="@+id/buy10TurnBtn"
+                android:onClick="onBuyTenTurnClick"
+                android:layout_width="120dp"
+                android:layout_height="55dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/coins700"/>
+            <ImageView
+                android:id="@+id/buy15TurnBtn"
+
+                android:onClick="onBuyFifteenTurnClick"
+                android:layout_width="120dp"
+                android:layout_height="55dp"
+                android:background="@drawable/coins1000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="189dp">
+            <ImageView
+                android:id="@+id/buy20TurnBtn"
+                android:layout_width="120dp"
+                android:onClick="onBuyTweltyTurnClick"
+                android:layout_height="55dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/coins2500"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="259dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your coins:"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/coinsCurrent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backopqw"
+    tools:context=".SplashActivity">
+
+
+    <LinearLayout
+        android:id="@+id/xo"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/dart"/>
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/fottball"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/backopqw"
+    tools:context=".AddPlayerActivity">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/radius_edit_text"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginStart="20dp"
+            android:padding="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="#000000"
+            android:shadowDx="4"
+            android:shadowDy="1"
+            android:shadowRadius="3"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:text="Your turn: "/>
+        <TextView
+            android:id="@+id/scoreTurn"
+            android:layout_marginEnd="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:text=""/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:background="@drawable/border_image"
+        android:src="@drawable/logo8"
+        android:textColor="#3A1408"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:background="@color/dark_blue"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginStart="20dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/dart"
+            android:adjustViewBounds="true"/>
+        <EditText
+            android:inputType="text"
+            android:maxLines="1"
+            android:id="@+id/playerOneName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:hint="Player One"
+            android:textColorHint="@color/light_white"
+            android:background="@color/dark_blue"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:background="@color/dark_blue"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginStart="20dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/fottball"
+            android:adjustViewBounds="true"/>
+        <EditText
+            android:inputType="text"
+            android:maxLines="1"
+            android:id="@+id/playerTwoName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:hint="Player Two"
+            android:textColorHint="@color/light_white"
+            android:background="@color/dark_blue"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/startGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="35dp"
+        android:text="Game Start"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:background="@drawable/radiusbutton"
+        android:textColor="#FAFAFA"/>
+
+    <Button
+        android:id="@+id/buyTurnBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="35dp"
+        android:text="Buy Turn"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:background="@drawable/radiusbutton"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:id="@+id/SubscriptionBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="40dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginTop="35dp"
+        android:text="Subcription"
+        android:background="@drawable/radiusbutton"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

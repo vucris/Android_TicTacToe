@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "85358489796",
+    "project_id": "amz-2023",
+    "storage_bucket": "amz-2023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85358489796:android:104dc8e19ddd314df95991",
+        "android_client_info": {
+          "package_name": "com.branternser.pearlsandworkers0906"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85358489796-p9sfg8v17an6cj7q8bs3qat4q3917c52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGpYSxQPdictFJGbpPWc9XBsTNZw3i_LU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85358489796-p9sfg8v17an6cj7q8bs3qat4q3917c52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

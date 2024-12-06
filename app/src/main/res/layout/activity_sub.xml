@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/backopqw"
+    tools:context=".SubActivity">
+
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/sett"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+
+        android:background="@drawable/close" />
+    <RelativeLayout
+        android:id="@+id/playerTwoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:layout_marginTop="20dp"
+        android:layout_margin="18dp"
+        android:layout_centerInParent="true"
+
+        android:background="@drawable/round_back_blue_border"
+        android:gravity="center"
+        android:orientation="vertical">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sett"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/subb">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="77dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/buy_one_button"
+                android:onClick="onBuyOneClick"
+                android:layout_width="120dp"
+                android:layout_height="55dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/sion" />
+
+            <ImageView
+                android:id="@+id/buy_five_button"
+                android:onClick="onBuyFiveClick"
+                android:layout_width="120dp"
+                android:layout_height="55dp"
+                android:background="@drawable/sbronze" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="143dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/buy_ten_button"
+                android:layout_width="120dp"
+                android:layout_height="55dp"
+                android:onClick="onBuyTenClick"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/sgold" />
+
+            <ImageView
+                android:id="@+id/buy_twenty_button"
+                android:layout_width="120dp"
+                android:onClick="onBuyTwentyClick"
+                android:layout_height="55dp"
+                android:background="@drawable/sdiamond" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="229dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_statusSub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="12dp"
+                android:text="Status"
+                android:textColor="#fff"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/is_magazine_enabled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

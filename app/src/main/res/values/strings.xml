@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Fox and Tortoise</string>
+    <string name="share_message">OMG been playing #jumpin for hours!, I scored </string>
+    <string name="app_id"></string>
+    <string name="action_settings">Settings</string>
+    <string name="buy_magazine">Buy Magazine Subscription</string>
+    <string name="subscription_disabled">Subscription Disabled</string>
+    <string name="subscription_enabled">Subscription Enabled</string>
+</resources>
